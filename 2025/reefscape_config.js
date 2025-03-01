@@ -86,15 +86,15 @@ var config_data = `
       "code": "ac4",
       "type": "counter"
     },
-    {"name": "Processor Side",
+    {"name": "Reef Scored: Processor Side",
      "code": "ar",
      "type": "bool"
     },
-    {"name": "Middle",
+    {"name": "Reef Scored: Middle",
      "code": "am",
      "type": "bool"
     },
-    {"name": "Not Processor Side",
+    {"name": "Reef Scored: Not Processor Side",
      "code": "al",
      "type": "bool"
     },
