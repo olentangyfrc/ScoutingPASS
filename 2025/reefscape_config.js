@@ -144,7 +144,7 @@ var config_data = `
       "type": "bool"
     }
   ],
-
+  "endgame": [
     { "name": "Final Robot Status",
       "code": "efs",
       "type":"radio",
