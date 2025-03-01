@@ -93,7 +93,7 @@ var config_data = `
         "l": "Not Processor Side<br>",
         "m": "Middle<br>",
         "r": "Processor Side<br>"
-      }
+      },
         "defaultValue": "m"
     },
     { "name": "Processor Score",
