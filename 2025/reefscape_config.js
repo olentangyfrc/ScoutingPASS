@@ -94,6 +94,7 @@ var config_data = `
         "m": "Middle<br>",
         "r": "Processor Side<br>",
       }
+        "defaultValue": "m"
     },
     { "name": "Processor Score",
       "code": "aps",
