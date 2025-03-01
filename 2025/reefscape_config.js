@@ -86,15 +86,17 @@ var config_data = `
       "code": "ac4",
       "type": "counter"
     },
-    { "name": "Auto Scoring Position",
-      "code": "asp", 
-      "type": "radio",
-      "choices": {
-        "l": "Not Processor Side<br>",
-        "m": "Middle<br>",
-        "r": "Processor Side<br>"
-      },
-      "defaultValue": "m"
+    {"name": "Processor Side",
+     "code": "ar",
+     "type": "bool"
+    },
+    {"name": "Middle",
+     "code": "am",
+     "type": "bool"
+    },
+    {"name": "Not Processor Side",
+     "code": "al",
+     "type": "bool"
     },
     { "name": "Processor Score",
       "code": "aps",
