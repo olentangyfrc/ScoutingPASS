@@ -86,18 +86,16 @@ var config_data = `
       "code": "ac4",
       "type": "counter"
     },
-    {"name": "Auton Scoring Position"
-    },
     {"name": "Processor Side",
-     "code": "r"
+     "code": "r",
      "type": "bool"
     },
     {"name": "Middle",
-     "code": "m"
+     "code": "m",
      "type": "bool"
     },
     {"name": "Not Processor Side",
-     "code": "l"
+     "code": "l",
      "type": "bool"
     },
     { "name": "Processor Score",
