@@ -92,7 +92,7 @@ var config_data = `
       "choices": {
         "l": "Not Processor Side<br>",
         "m": "Middle<br>",
-        "r": "Processor Side<br>",
+        "r": "Processor Side<br>"
       }
         "defaultValue": "m"
     },
