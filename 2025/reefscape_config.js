@@ -148,18 +148,27 @@ var config_data = `
       "type": "bool"
     }
   ],
+
   "endgame": [
     { "name": "Final Robot Status",
       "code": "efs",
       "type":"radio",
       "choices": {
         "bp": "Parked<br>",
-        "ba": "Parked/Failed Climb<br>",
         "bs": "Shallow Cage<br>",
         "bd": "Deep Cage<br>",
         "x": "Not attempted"
       },
-      "defaultValue": "x"
+      "defaultValue": "x",
+      "required": "true"
+    },
+    {"name": "Failed",
+      "code": "ef",
+      "type": "bool"
+    },
+    {"name": "Penalized",
+      "code": "ep",
+      "type": "bool"
     }
   ],
   "postmatch": [
