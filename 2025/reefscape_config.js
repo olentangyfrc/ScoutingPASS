@@ -151,7 +151,7 @@ var config_data = `
 
   "endgame": [
     { "name": "Final Robot Status",
-      "code": "efs",
+      "code": "es",
       "type":"radio",
       "choices": {
         "bp": "Parked<br>",
@@ -162,8 +162,12 @@ var config_data = `
       "defaultValue": "x",
       "required": "true"
     },
-    {"name": "Failed",
-      "code": "ef",
+    {"name": "Failed Shallow Climb",
+      "code": "efs",
+      "type": "bool"
+    },
+    {"name": "Failed Deep Climb",
+      "code": "efd",
       "type": "bool"
     },
     {"name": "Penalized",
@@ -183,6 +187,28 @@ var config_data = `
       "max": 9,
       "defaultValue": 0
     },
+
+    { "name": "Rate Reef Scoring",
+      "code": "rrs",
+      "type": "radio",
+      "choices": {
+        "b": "Below Average<br>",
+        "a": "Average<br>",
+        "g": "Good<br>",
+        "e": "Excellent<br>"
+            }
+    },
+
+    { "name": "Rate Algae Removal Ability",
+      "code": "rar",
+      "type": "radio",
+      "choices": {
+        "b": "Below Average<br>",
+        "a": "Average<br>",
+        "g": "Good<br>",
+        "e": "Excellent<br>"
+      }
+      },
     { "name": "Driver Skill",
       "code": "ds",
       "type": "radio",
