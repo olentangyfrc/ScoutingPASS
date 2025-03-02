@@ -87,7 +87,7 @@ var config_data = `
       "type": "counter"
     },
     {"name": "Reef Scored: Processor Side",
-     "code": "ar",
+     "code": "ap",
      "type": "bool"
     },
     {"name": "Reef Scored: Middle",
@@ -95,7 +95,7 @@ var config_data = `
      "type": "bool"
     },
     {"name": "Reef Scored: Not Processor Side",
-     "code": "al",
+     "code": "anp",
      "type": "bool"
     },
     { "name": "Processor Score",
