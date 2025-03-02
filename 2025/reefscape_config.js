@@ -70,20 +70,20 @@ var config_data = `
       "code": "al",
       "type": "bool"
     },
-    { "name": "Coral L1",
-      "code": "ac1",
-      "type": "counter"
-    },
-    { "name": "Coral L2",
-      "code": "ac2",
+    { "name": "Coral L4",
+      "code": "ac4",
       "type": "counter"
     },
     { "name": "Coral L3",
       "code": "ac3",
       "type": "counter"
     },
-    { "name": "Coral L4",
-      "code": "ac4",
+    { "name": "Coral L2",
+      "code": "ac2",
+      "type": "counter"
+    },
+    { "name": "Coral L1",
+      "code": "ac1",
       "type": "counter"
     },
     {"name": "Reef Scored: Processor Side",
@@ -108,20 +108,20 @@ var config_data = `
     }
   ],
   "teleop": [
-    { "name": "Coral L1",
-      "code": "tc1",
-      "type": "counter"
-    },
-    { "name": "Coral L2",
-      "code": "tc2",
+    { "name": "Coral L4",
+      "code": "tc4",
       "type": "counter"
     },
     { "name": "Coral L3",
       "code": "tc3",
       "type": "counter"
     },
-    { "name": "Coral L4",
-      "code": "tc4",
+    { "name": "Coral L2",
+      "code": "tc2",
+      "type": "counter"
+    },
+    { "name": "Coral L1",
+      "code": "tc1",
       "type": "counter"
     },
     { "name": "Processor Score",
