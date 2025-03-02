@@ -188,35 +188,39 @@ var config_data = `
       "defaultValue": 0
     },
 
-    { "name": "Rate Reef Scoring",
+    { "name": "Rate Reef Scoring <br> (1=poor, 5=excellent)",
       "code": "rrs",
       "type": "radio",
       "choices": {
-        "b": "Below Average<br>",
-        "a": "Average<br>",
-        "g": "Good<br>",
-        "e": "Excellent<br>"
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5
             }
     },
 
-    { "name": "Rate Algae Removal Ability",
+    { "name": "Rate Algae Removal Ability <br> (1=poor, 5=excellent)",
       "code": "rar",
       "type": "radio",
       "choices": {
-        "b": "Below Average<br>",
-        "a": "Average<br>",
-        "g": "Good<br>",
-        "e": "Excellent<br>"
+        "1": 1 ,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5
       }
       },
     { "name": "Driver Skill",
       "code": "ds",
       "type": "radio",
       "choices": {
-        "n": "Not Effective<br>",
-        "a": "Average<br>",
-        "v": "Very Effective<br>",
-        "x": "Not Observed"
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5
+
       },
       "defaultValue": "x"
     },
@@ -269,7 +273,7 @@ var config_data = `
       "code": "co",
       "type": "text",
       "size": 15,
-      "maxSize": 55
+      "maxSize": 500
     }
   ]
 }`;
