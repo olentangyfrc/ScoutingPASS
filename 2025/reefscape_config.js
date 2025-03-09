@@ -182,10 +182,7 @@ var config_data = `
     },
     { "name": "Algae Left in Reef",
       "code": "alr",
-      "type": "number",
-      "min": 0,
-      "max": 9,
-      "defaultValue": 0
+      "type": "counter"
     },
 
     { "name": "Rate Reef Scoring <br> (1=poor, 5=excellent)",
@@ -197,7 +194,8 @@ var config_data = `
         "3": 3,
         "4": 4,
         "5": 5
-            }
+        }
+        ,"defaultValue": "3"
     },
 
     { "name": "Rate Algae Removal Ability <br> (1=poor, 5=excellent)",
@@ -209,7 +207,7 @@ var config_data = `
         "3": 3,
         "4": 4,
         "5": 5
-      }
+      },"defaultValue": "3"
       },
     { "name": "Driver Skill",
       "code": "ds",
@@ -222,7 +220,7 @@ var config_data = `
         "5": 5
 
       },
-      "defaultValue": "x"
+      "defaultValue": "3"
     },
     { "name": "Defense Rating",
       "code": "dr",
